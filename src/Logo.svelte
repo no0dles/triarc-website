@@ -67,12 +67,34 @@
 
     .logo-container {
         @apply flex items-center justify-center;
-        background: url("https://triarc-labs.com/wp-content/uploads/2016/02/Zurich_blank.png") 50% 0% / cover;
+        background: url("./zuerich-bg.png") 50% 0% / cover;
     }
 
     @media (max-width: 768px) {
         .logo {
             padding: 16px;
+        }
+
+        .logo-container {
+            background: url("./zuerich-bg-768.png") 50% 0% / cover;
+        }
+    }
+
+    @media (max-width: 1024px) {
+        .logo-container {
+            background: url("./zuerich-bg-1024.png") 50% 0% / cover;
+        }
+    }
+
+    @media (max-width: 1440px) {
+        .logo-container {
+            background: url("./zuerich-bg-1440.png") 50% 0% / cover;
+        }
+    }
+
+    @media (max-width: 1920px) {
+        .logo-container {
+            background: url("./zuerich-bg-1920.png") 50% 0% / cover;
         }
     }
 
