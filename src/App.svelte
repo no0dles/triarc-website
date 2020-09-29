@@ -28,7 +28,9 @@
 <div class="section" id="projects">
     <Projects></Projects>
 </div>
-<Product></Product>
+<div id="product">
+    <Product></Product>
+</div>
 <div class="section" id="customers">
     <Customers></Customers>
 </div>

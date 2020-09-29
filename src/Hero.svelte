@@ -22,10 +22,10 @@
                         </div>
                     </div>
                     <div class="hidden md:block md:ml-10 md:pr-4">
-                        <a href="#" class="font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out">Dienstleistung</a>
-                        <a href="#" class="ml-8 font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out">Produkt</a>
-                        <a href="#" class="ml-8 font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out">Über uns</a>
-                        <a href="#" class="ml-8 font-medium text-indigo-600 hover:text-indigo-900 transition duration-150 ease-in-out">Jobs</a>
+                        <a href="#projects" class="font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out">Projekte</a>
+                        <a href="#product" class="ml-8 font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out">Produkt</a>
+                        <a href="#aboutUs" class="ml-8 font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out">Über uns</a>
+                        <a href="#jobs" class="ml-8 font-medium text-indigo-600 hover:text-indigo-900 transition duration-150 ease-in-out">Jobs</a>
                     </div>
                 </nav>
             </div>

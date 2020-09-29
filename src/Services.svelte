@@ -1,9 +1,9 @@
-<div class="py-24 my-16 mx-8 bg-gray-800">
+<div class="py-24 my-16 bg-gray-200">
     <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="lg:text-center">
             <p class="text-base leading-6 text-indigo-600 font-semibold tracking-wide uppercase">Dienstleistung
             </p>
-            <h3 class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl sm:leading-10">
+            <h3 class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-700 sm:text-4xl sm:leading-10">
                 SOFTWAREENTWICKLUNG
             </h3>
             <p class="mt-4 max-w-2xl text-xl leading-7 text-gray-500 lg:mx-auto">
@@ -23,7 +23,7 @@
                             </div>
                         </div>
                         <div class="ml-4">
-                            <h4 class="text-lg leading-6 font-medium text-white">Individuell
+                            <h4 class="text-lg leading-6 font-medium text-gray-700">Individuell
                             </h4>
                             <p class="mt-2 text-base leading-6 text-gray-600">
                                 Unsere Web- und Mobilapplikationen sind so vielfältig wie Ihre Bedürfnisse.
@@ -41,7 +41,7 @@
                             </div>
                         </div>
                         <div class="ml-4">
-                            <h4 class="text-lg leading-6 font-medium text-white">Massgeschneidert
+                            <h4 class="text-lg leading-6 font-medium text-gray-700">Massgeschneidert
                             </h4>
                             <p class="mt-2 text-base leading-6 text-gray-600">
                                 Wir setzen Ihre Arbeitsprozesse schlank um, so dass jeder Mitarbeiter jederzeit und überall komplexe Arbeiten selbständig erledigen kann. Offlinefähig zu sein erlaubt es Ihnen auch Mitarbeiter in verbindungsfeindlicher Umgebung mit den relevanten Informationen zu versorgen und deren Arbeiten einzubeziehen.
@@ -59,7 +59,7 @@
                             </div>
                         </div>
                         <div class="ml-4">
-                            <h4 class="text-lg leading-6 font-medium text-white">Völlständig integriert
+                            <h4 class="text-lg leading-6 font-medium text-gray-700">Völlständig integriert
                             </h4>
                             <p class="mt-2 text-base leading-6 text-gray-600">
                                 Das volle Potenzial einer Mobilapplikation entfaltet sich mit der Integration in Ihr Software-Ökosystem. Angebunden an Ihr ERP (Enterprise Resource Planning) entfallen die Medienbrüche und Prozesse können nahtlos ineinandergreifen. Zu diesem Thema bringen wir bereits viel Erfahrung in der Zusammenarbeit mit ABACUS und SAP mit.
@@ -77,7 +77,7 @@
                             </div>
                         </div>
                         <div class="ml-4">
-                            <h4 class="text-lg leading-6 font-medium text-white">Daten richtig nutzen
+                            <h4 class="text-lg leading-6 font-medium text-gray-700">Daten richtig nutzen
                             </h4>
                             <p class="mt-2 text-base leading-6 text-gray-600">
                                 Mit spezifischen Visualisierungen machen wir Ihre grossen Datenmengen verständlich und dank intelligenter Indexierung deren Details auffindbar.
