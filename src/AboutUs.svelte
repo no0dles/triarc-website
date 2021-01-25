@@ -1,41 +1,72 @@
 <div class="bg-gray-200">
-    <div class="max-w-screen-xl mx-auto py-12 px-4 text-center sm:px-6 lg:px-8 lg:py-24">
-        <div class="space-y-8 sm:space-y-12">
-            <div class="space-y-5 sm:mx-auto sm:max-w-xl sm:space-y-4 lg:max-w-5xl">
-                <h2 class="text-3xl leading-9 font-extrabold tracking-tight sm:text-4xl">The Team</h2>
-                <p class="text-xl leading-7 text-gray-500">Risus velit condimentum vitae tincidunt tincidunt. Mauris ridiculus fusce amet urna nunc. Ut nisl ornare diam in.</p>
-            </div>
-            <ul class="mx-auto grid grid-cols-2 gap-x-4 gap-y-8 sm:grid-cols-4 md:gap-x-6 lg:max-w-5xl lg:gap-x-8 lg:gap-y-12 xl:grid-cols-6">
-                {#each teamMember as { name, job, image }}
+  <div class="mx-auto py-12 px-4 max-w-7xl sm:px-6 lg:px-8 lg:py-24">
+    <div class="space-y-12 lg:grid lg:grid-cols-3 lg:gap-8 lg:space-y-0">
+      <div class="space-y-5 sm:space-y-4">
+        <h2 class="text-3xl font-extrabold tracking-tight sm:text-4xl">Get in touch</h2>
+        <p class="text-xl text-gray-500">Nulla quam felis, enim faucibus proin velit, ornare id pretium. Augue ultrices sed arcu condimentum vestibulum suspendisse. Volutpat eu faucibus vivamus eget bibendum cras.</p>
+      </div>
+      <div class="lg:col-span-2">
+        <ul class="space-y-12 sm:divide-y sm:divide-gray-200 sm:space-y-0 sm:-mt-8 lg:gap-x-8 lg:space-y-0">
+          <li class="sm:py-8">
+            <div class="space-y-4 sm:grid sm:grid-cols-3 sm:items-start sm:gap-6 sm:space-y-0">
+              <!-- Image -->
+              <div class="aspect-w-3 aspect-h-2 sm:aspect-w-3 sm:aspect-h-4">
+                <img class="object-cover shadow-lg rounded-lg" src="david.jpeg" alt="">
+              </div>
+              <div class="sm:col-span-2">
+                <div class="space-y-4">
+                  <div class="text-lg leading-6 font-medium space-y-1">
+                    <h3>David Haug</h3>
+                    <p class="text-indigo-600">Sales</p>
+                  </div>
+                  <div class="text-lg">
+                    <p class="text-gray-500">Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.</p>
+                  </div>
+                  <ul class="flex space-x-5">
                     <li>
-                        <div class="space-y-4 mb-6">
-                            <img class="mx-auto h-20 w-20 rounded-full lg:w-24 lg:h-24 object-cover" src="{image}" alt="{name}">
-                            <div class="space-y-2">
-                                <div class="text-xs leading-4 font-medium lg:text-sm lg:leading-5">
-                                    <h4>{name}</h4>
-                                    <p class="text-indigo-600">{job}</p>
-                                </div>
-                            </div>
-                        </div>
+                      <a href="https://www.linkedin.com/in/david-haug-442064a5/" class="text-gray-400 hover:text-gray-500">
+                        <span class="sr-only">LinkedIn</span>
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                          <path fill-rule="evenodd" d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z" clip-rule="evenodd" />
+                        </svg>
+                      </a>
                     </li>
-                {/each}
-            </ul>
-        </div>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="sm:py-8">
+            <div class="space-y-4 sm:grid sm:grid-cols-3 sm:items-start sm:gap-6 sm:space-y-0">
+              <!-- Image -->
+              <div class="aspect-w-3 aspect-h-2 sm:aspect-w-3 sm:aspect-h-4">
+                <img class="object-cover shadow-lg rounded-lg" src="https://i0.wp.com/triarc-labs.com/wp-content/uploads/2016/02/serge.jpg?w=311&ssl=1" alt="">
+              </div>
+              <div class="sm:col-span-2">
+                <div class="space-y-4">
+                  <div class="text-lg leading-6 font-medium space-y-1">
+                    <h3>Serge Müller</h3>
+                    <p class="text-indigo-600">CEO / Partner</p>
+                  </div>
+                  <div class="text-lg">
+                    <p class="text-gray-500">Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.</p>
+                  </div>
+                  <ul class="flex space-x-5">
+                    <li>
+                      <a href="https://www.linkedin.com/in/serge-m%C3%BCller-568a0a134/" class="text-gray-400 hover:text-gray-500">
+                        <span class="sr-only">LinkedIn</span>
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                          <path fill-rule="evenodd" d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z" clip-rule="evenodd" />
+                        </svg>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
     </div>
+  </div>
 </div>
-
-<script>
-    let teamMember = [
-      { name: 'Serge Müller', job: 'CEO / Partner', image: 'https://i0.wp.com/triarc-labs.com/wp-content/uploads/2016/02/serge.jpg?w=311&ssl=1'},
-      { name: 'Marco Schmidlin', job: 'CTO / Partner', image: 'https://i1.wp.com/triarc-labs.com/wp-content/uploads/2016/01/1275.jpeg?w=311&ssl=1'},
-      { name: 'Elke Engel', job: 'CFO / Partner', image: 'https://i0.wp.com/triarc-labs.com/wp-content/uploads/2016/01/elke-1.jpg?w=541&ssl=1'},
-      { name: 'Max Lüthi', job: 'Software Developer', image: 'https://i0.wp.com/triarc-labs.com/wp-content/uploads/2016/01/1276.jpeg?w=311&ssl=1'},
-      { name: 'Pascal Bertschi', job: 'Software Developer', image: 'https://i0.wp.com/triarc-labs.com/wp-content/uploads/2016/01/pascal.jpg?w=311&ssl=1'},
-      { name: 'Fabrizio Lazaretti', job: 'Software Developer', image: 'https://i0.wp.com/triarc-labs.com/wp-content/uploads/2016/01/1281.jpg?w=311&ssl=1'},
-      { name: 'Mathia Ninivaggi', job: 'Software Developer', image: 'https://i0.wp.com/triarc-labs.com/wp-content/uploads/2016/01/1281.jpg?w=311&ssl=1'},
-      { name: 'Warwara Panyushkina', job: 'Software Developer', image: 'https://i0.wp.com/triarc-labs.com/wp-content/uploads/2016/01/1281.jpg?w=311&ssl=1'},
-      { name: 'Dave Haug', job: 'Sales', image: 'https://i0.wp.com/triarc-labs.com/wp-content/uploads/2016/01/1281.jpg?w=311&ssl=1'},
-      { name: 'Alicia Brede', job: 'Administration', image: 'https://i0.wp.com/triarc-labs.com/wp-content/uploads/2016/01/1281.jpg?w=311&ssl=1'},
-      { name: 'Paul Tingle', job: 'Nearshore Developer', image: 'https://i0.wp.com/triarc-labs.com/wp-content/uploads/2016/01/1281.jpg?w=311&ssl=1'}
-    ]
-</script>
